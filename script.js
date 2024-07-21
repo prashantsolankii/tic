@@ -76,10 +76,10 @@ const enableBoxes=() =>{
 };
 const showWinner =(winner) => {
     if(winner == 'X'){
-    msg.innerText = 'Congratulations,Winner is Musfikah';
+    msg.innerText = 'Congratulations,Winner is X';
     }
     else{
-        msg.innerText = 'Congratulations,Winner is Prashant';
+        msg.innerText = 'Congratulations,Winner is O';
     }
     msgContainer.classList.remove("hide");
     disableBoxes();
